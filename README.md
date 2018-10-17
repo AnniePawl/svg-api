@@ -15,5 +15,23 @@ Unlike raster images that dramatically lose quality when you increase their size
 ![alt text](https://infoactive.co/data-design/images/sections/05/ch19-03-raster-vector.png)
 
 ### Scripting and Animation 
-SVG graphics are particularly awesome in the realm of web development because they be programmed using a scripting language like JavaScrip to become dynamic and interactive. An SVG document can easily be accessed and manipulated because there are defined Document Object Model objects for every element and attribute. What’s more, SVG content can be animated with built-in elements like ``` <animate> ```.
+SVGs are particularly awesome in the realm of web development because they be programmed using a scripting language like JavaScrip to become dynamic and interactive. An SVG document can easily be accessed and manipulated because there are defined Document Object Model objects for every element and attribute. What’s more, SVG content can be animated with built-in elements like ``` <animate> ```. 
+
+## How I Spiced Up My SVG 
+I started by making custom graphics in Adobe Illustrator. These graphics have multiple elements that can be styled individually. After exporting my graphics as SVG files, I opened them in my text editor and copied the code into my HTML document. Next I assigned classes and ids to specific components so that they could be styled in a seperate CSS file. I played around with colors and sizing to make the graphics dynamic when hovered over.  
+
+
+## Resources 
+* [MDN web docs](https://www.webdesignerdepot.com/2015/01/the-ultimate-guide-to-svg/
+)
+* [Web Design Depot](https://www.webdesignerdepot.com/2015/01/the-ultimate-guide-to-svg/
+)
+* [CSS Tricks](https://css-tricks.com/using-svg/
+)
+
+* [SVG Tutorial](http://svgtutorial.com/styling-svg-with-css/
+)
+
+
+
 
